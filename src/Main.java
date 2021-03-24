@@ -10,23 +10,14 @@ public class Main {
 				+ "Introduce un número para averiguar si es primo o no:\n" );
 		
 		numero =(float)esc.nextInt();
-		int contador = 0;
-		String div= "";
 		
-		for (int i = 1; i < numero; i++) {
-			
-			if ((numero/i) == 1) {
-				contador++;
-				div += i + " ";
-			}
-	
-		}
-		if (contador > 1) {
+		if (numero %2 == 0 || numero %3 ==0 || numero %4 == 0) {
 			System.out.println("el numero no es primo");
-			System.out.println("sus divisores son "+ div);
-		}else {
+		}else  {
 			System.out.println("el numero es primo");
 		}
+		
+		
 		
 	}
 
