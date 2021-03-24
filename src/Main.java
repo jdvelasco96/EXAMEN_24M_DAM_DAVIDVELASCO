@@ -11,7 +11,7 @@ public class Main {
 		
 		numero =(float)esc.nextInt();
 		
-		if (numero %2 == 0 || numero %3 ==0 || numero %4 == 0) {
+		if (numero %2 == 0 || numero %3 ==0 || numero %5 == 0) {
 			System.out.println("el numero no es primo");
 		}else  {
 			System.out.println("el numero es primo");
